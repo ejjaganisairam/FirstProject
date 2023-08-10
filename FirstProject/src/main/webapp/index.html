@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="http://localhost:8080/FirstProject/CSS/index.css">
+
+</head>
+
+<body>
+	<div id="container">
+		<div id="top">
+			<p>EMEZONE</p>
+		</div>
+
+		<form action="LoginServlet" method='post'>
+			<fieldset>
+				<legend>User Login Form</legend>
+				<div>
+					<p>Username</p>
+					<input id='username_input' name="uname"></input>
+				</div>
+				<div>
+					<p>Password</p>
+					<input id="password_input" name="pass"></input>
+				</div>
+				<button type="submit">Login here</button>
+				<p>
+					<a href="l">New User ?</a>
+				</p>
+			</fieldset>
+		</form>
+	</div>
+	<div w3-include-html="http://localhost:8080/FirstProject/HTML/footer.html"></div>
+	<script src="http://localhost:8080/FirstProject/JS/index.js"></script>
+	<script>
+		includeHTML()
+	</script>
+</body>
+
+</html>
